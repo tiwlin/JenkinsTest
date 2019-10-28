@@ -11,6 +11,7 @@
     <form id="form1" runat="server">
         <div>
         </div>
+        <asp:Button ID="btnInvoke" runat="server" OnClick="btnInvoke_Click" Text="觸發構建" />
     </form>
 </body>
 </html>

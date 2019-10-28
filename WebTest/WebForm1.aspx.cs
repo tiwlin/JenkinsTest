@@ -1,4 +1,5 @@
-﻿using System;
+﻿using BranchLib;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Web;
@@ -12,6 +13,12 @@ namespace WebTest
         protected void Page_Load(object sender, EventArgs e)
         {
             // TODO Test
+        }
+
+        protected void btnInvoke_Click(object sender, EventArgs e)
+        {
+            BranchHelper helper = new BranchHelper();
+            helper.InvokeBuild();
         }
     }
 }
