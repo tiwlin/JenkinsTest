@@ -9,10 +9,10 @@ using Moq;
 
 namespace CommHelper.Tests
 {
-    [TestFixture()]   
+    [TestFixture()]
     public class TestHelperTests
     {
-        [Test()]    
+        [Test()]
         public void CheckTest()
         {
             TestHelper helper = new TestHelper();
@@ -46,6 +46,10 @@ namespace CommHelper.Tests
             Assert.True(mock.Object.Import("test"));
         }
 
-       
+        [Test()]
+        public void IsError()
+        {
+            Assert.True(false);
+        }
     }
 }
