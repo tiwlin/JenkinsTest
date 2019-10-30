@@ -27,5 +27,10 @@ namespace CommHelper
         {
             throw new Exception();
         }
+
+        public bool TestCover()
+        {
+            throw new Exception();
+        }
     }
 }
