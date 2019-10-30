@@ -18,9 +18,10 @@ namespace CommHelper
             return true;
         }
 
-        public bool IsInt(int o)
+        public bool IsInt(string o)
         {
-            throw new Exception();
+            int result = 0;
+            return int.TryParse(o, out result);
         }
 
         public bool IsString(int o)

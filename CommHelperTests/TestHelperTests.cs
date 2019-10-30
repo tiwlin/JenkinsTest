@@ -22,7 +22,8 @@ namespace CommHelper.Tests
         [Test()]
         public void IsIntTest()
         {
-            Assert.True(true);
+            TestHelper helper = new TestHelper();
+            Assert.True(helper.IsInt("1"));
         }
 
         [Test()]
