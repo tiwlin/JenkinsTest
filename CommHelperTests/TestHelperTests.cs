@@ -50,7 +50,7 @@ namespace CommHelper.Tests
         [Test()]
         public void IsError()
         {
-            Assert.True(true);
+            Assert.True(false);
         }
     }
 }
