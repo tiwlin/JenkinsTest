@@ -13,7 +13,6 @@ namespace WebTest
         protected void Page_Load(object sender, EventArgs e)
         {
             // TODO Test
-            throw;
         }
 
         protected void btnInvoke_Click(object sender, EventArgs e)
