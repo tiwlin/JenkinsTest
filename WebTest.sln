@@ -13,28 +13,6 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BranchLib", "BranchLib\Bran
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SinglePageWeb", "SinglePageWeb\SinglePageWeb.csproj", "{D2CEA41D-7789-4E77-BCA3-C616F0BAF824}"
 EndProject
-Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "WebFormTest", "WebFormTest\", "{7507AEE8-A91D-4D49-92CF-37FA610000A2}"
-	ProjectSection(WebsiteProperties) = preProject
-		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.6"
-		Debug.AspNetCompiler.VirtualPath = "/localhost_58925"
-		Debug.AspNetCompiler.PhysicalPath = "WebFormTest\"
-		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_58925\"
-		Debug.AspNetCompiler.Updateable = "true"
-		Debug.AspNetCompiler.ForceOverwrite = "true"
-		Debug.AspNetCompiler.FixedNames = "false"
-		Debug.AspNetCompiler.Debug = "True"
-		Release.AspNetCompiler.VirtualPath = "/localhost_58925"
-		Release.AspNetCompiler.PhysicalPath = "WebFormTest\"
-		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_58925\"
-		Release.AspNetCompiler.Updateable = "true"
-		Release.AspNetCompiler.ForceOverwrite = "true"
-		Release.AspNetCompiler.FixedNames = "false"
-		Release.AspNetCompiler.Debug = "False"
-		VWDPort = "58925"
-		SlnRelativePath = "WebFormTest\"
-		DefaultWebSiteLanguage = "Visual C#"
-	EndProjectSection
-EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -127,22 +105,6 @@ Global
 		{D2CEA41D-7789-4E77-BCA3-C616F0BAF824}.Release|x64.Build.0 = Release|Any CPU
 		{D2CEA41D-7789-4E77-BCA3-C616F0BAF824}.Release|x86.ActiveCfg = Release|Any CPU
 		{D2CEA41D-7789-4E77-BCA3-C616F0BAF824}.Release|x86.Build.0 = Release|Any CPU
-		{7507AEE8-A91D-4D49-92CF-37FA610000A2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{7507AEE8-A91D-4D49-92CF-37FA610000A2}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{7507AEE8-A91D-4D49-92CF-37FA610000A2}.Debug|ARM.ActiveCfg = Debug|Any CPU
-		{7507AEE8-A91D-4D49-92CF-37FA610000A2}.Debug|ARM.Build.0 = Debug|Any CPU
-		{7507AEE8-A91D-4D49-92CF-37FA610000A2}.Debug|x64.ActiveCfg = Debug|Any CPU
-		{7507AEE8-A91D-4D49-92CF-37FA610000A2}.Debug|x64.Build.0 = Debug|Any CPU
-		{7507AEE8-A91D-4D49-92CF-37FA610000A2}.Debug|x86.ActiveCfg = Debug|Any CPU
-		{7507AEE8-A91D-4D49-92CF-37FA610000A2}.Debug|x86.Build.0 = Debug|Any CPU
-		{7507AEE8-A91D-4D49-92CF-37FA610000A2}.Release|Any CPU.ActiveCfg = Debug|Any CPU
-		{7507AEE8-A91D-4D49-92CF-37FA610000A2}.Release|Any CPU.Build.0 = Debug|Any CPU
-		{7507AEE8-A91D-4D49-92CF-37FA610000A2}.Release|ARM.ActiveCfg = Debug|Any CPU
-		{7507AEE8-A91D-4D49-92CF-37FA610000A2}.Release|ARM.Build.0 = Debug|Any CPU
-		{7507AEE8-A91D-4D49-92CF-37FA610000A2}.Release|x64.ActiveCfg = Debug|Any CPU
-		{7507AEE8-A91D-4D49-92CF-37FA610000A2}.Release|x64.Build.0 = Debug|Any CPU
-		{7507AEE8-A91D-4D49-92CF-37FA610000A2}.Release|x86.ActiveCfg = Debug|Any CPU
-		{7507AEE8-A91D-4D49-92CF-37FA610000A2}.Release|x86.Build.0 = Debug|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
