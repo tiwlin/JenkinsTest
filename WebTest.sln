@@ -35,28 +35,6 @@ Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "WebFormTest", "WebFormTest\
 		DefaultWebSiteLanguage = "Visual C#"
 	EndProjectSection
 EndProject
-Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "WebForm3.5", "WebForm3.5\", "{55B8E76A-D9C0-4C79-A6B2-D08690C30ED6}"
-	ProjectSection(WebsiteProperties) = preProject
-		TargetFrameworkMoniker = ".NETFramework,Version%3Dv3.5"
-		Debug.AspNetCompiler.VirtualPath = "/localhost_59509"
-		Debug.AspNetCompiler.PhysicalPath = "WebForm3.5\"
-		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_59509\"
-		Debug.AspNetCompiler.Updateable = "true"
-		Debug.AspNetCompiler.ForceOverwrite = "true"
-		Debug.AspNetCompiler.FixedNames = "false"
-		Debug.AspNetCompiler.Debug = "True"
-		Release.AspNetCompiler.VirtualPath = "/localhost_59509"
-		Release.AspNetCompiler.PhysicalPath = "WebForm3.5\"
-		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_59509\"
-		Release.AspNetCompiler.Updateable = "true"
-		Release.AspNetCompiler.ForceOverwrite = "true"
-		Release.AspNetCompiler.FixedNames = "false"
-		Release.AspNetCompiler.Debug = "False"
-		VWDPort = "59509"
-		SlnRelativePath = "WebForm3.5\"
-		DefaultWebSiteLanguage = "Visual C#"
-	EndProjectSection
-EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -165,22 +143,6 @@ Global
 		{7507AEE8-A91D-4D49-92CF-37FA610000A2}.Release|x64.Build.0 = Debug|Any CPU
 		{7507AEE8-A91D-4D49-92CF-37FA610000A2}.Release|x86.ActiveCfg = Debug|Any CPU
 		{7507AEE8-A91D-4D49-92CF-37FA610000A2}.Release|x86.Build.0 = Debug|Any CPU
-		{55B8E76A-D9C0-4C79-A6B2-D08690C30ED6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{55B8E76A-D9C0-4C79-A6B2-D08690C30ED6}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{55B8E76A-D9C0-4C79-A6B2-D08690C30ED6}.Debug|ARM.ActiveCfg = Debug|Any CPU
-		{55B8E76A-D9C0-4C79-A6B2-D08690C30ED6}.Debug|ARM.Build.0 = Debug|Any CPU
-		{55B8E76A-D9C0-4C79-A6B2-D08690C30ED6}.Debug|x64.ActiveCfg = Debug|Any CPU
-		{55B8E76A-D9C0-4C79-A6B2-D08690C30ED6}.Debug|x64.Build.0 = Debug|Any CPU
-		{55B8E76A-D9C0-4C79-A6B2-D08690C30ED6}.Debug|x86.ActiveCfg = Debug|Any CPU
-		{55B8E76A-D9C0-4C79-A6B2-D08690C30ED6}.Debug|x86.Build.0 = Debug|Any CPU
-		{55B8E76A-D9C0-4C79-A6B2-D08690C30ED6}.Release|Any CPU.ActiveCfg = Debug|Any CPU
-		{55B8E76A-D9C0-4C79-A6B2-D08690C30ED6}.Release|Any CPU.Build.0 = Debug|Any CPU
-		{55B8E76A-D9C0-4C79-A6B2-D08690C30ED6}.Release|ARM.ActiveCfg = Debug|Any CPU
-		{55B8E76A-D9C0-4C79-A6B2-D08690C30ED6}.Release|ARM.Build.0 = Debug|Any CPU
-		{55B8E76A-D9C0-4C79-A6B2-D08690C30ED6}.Release|x64.ActiveCfg = Debug|Any CPU
-		{55B8E76A-D9C0-4C79-A6B2-D08690C30ED6}.Release|x64.Build.0 = Debug|Any CPU
-		{55B8E76A-D9C0-4C79-A6B2-D08690C30ED6}.Release|x86.ActiveCfg = Debug|Any CPU
-		{55B8E76A-D9C0-4C79-A6B2-D08690C30ED6}.Release|x86.Build.0 = Debug|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
