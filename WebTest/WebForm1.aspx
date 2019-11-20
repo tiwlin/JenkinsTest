@@ -11,7 +11,8 @@
     <form id="form1" runat="server">
         <div>
         </div>
-        <asp:Button ID="btnInvoke" runat="server" OnClick="btnInvoke_Click" Text="觸發構建" />
+        <asp:Button ID="btnInvoke" runat="server" OnClick="btnInvoke_Click" Text="觸發構建" /><br /><br /><br /><br /><br />
+        <asp:TextBox ID="txtWcfParam" runat="server"></asp:TextBox><asp:Button ID="btnWcf" runat="server" Text="測試Wcf服務" OnClick="btnWcf_Click" /><asp:Label ID="lWcfResult" runat="server"></asp:Label>
     </form>
 </body>
 </html>

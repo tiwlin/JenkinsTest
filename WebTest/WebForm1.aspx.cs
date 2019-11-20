@@ -5,6 +5,7 @@ using System.Linq;
 using System.Web;
 using System.Web.UI;
 using System.Web.UI.WebControls;
+using WebTest.WcfTest;
 
 namespace WebTest
 {
@@ -19,6 +20,13 @@ namespace WebTest
         {
             BranchHelper helper = new BranchHelper();
             helper.InvokeBuild();
+        }
+
+        protected void btnWcf_Click(object sender, EventArgs e)
+        {
+            IUserService service = new UserServiceClient();
+            string result = service.GetData(int.Parse(this.txtWcfParam.Text));
+            this.lWcfResult.Text = result;
         }
     }
 }
