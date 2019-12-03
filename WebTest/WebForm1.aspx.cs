@@ -26,6 +26,7 @@ namespace WebTest
         {
             IUserService service = new UserServiceClient();
             string result = service.GetData(int.Parse(this.txtWcfParam.Text));
+            result = "Test" + result;
             this.lWcfResult.Text = result;
         }
     }
