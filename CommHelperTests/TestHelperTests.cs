@@ -52,5 +52,11 @@ namespace CommHelper.Tests
         {
             Assert.True(true);
         }
+
+        [Test()]
+        public void IsSuccess()
+        {
+            Assert.True(true);
+        }
     }
 }
